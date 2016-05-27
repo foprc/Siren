@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB2B4741CF8109900F5CED8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB2B4731CF8109900F5CED8 /* AVFoundation.framework */; };
+		2BB2B4781CF8192100F5CED8 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BB2B4771CF8192100F5CED8 /* a.mp3 */; };
 		508124701CF7026C00B610C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081246F1CF7026C00B610C2 /* AppDelegate.swift */; };
 		508124721CF7026C00B610C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508124711CF7026C00B610C2 /* ViewController.swift */; };
 		508124751CF7026C00B610C2 /* Siren.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 508124731CF7026C00B610C2 /* Siren.xcdatamodeld */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BB2B4731CF8109900F5CED8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2BB2B4771CF8192100F5CED8 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
 		5081246C1CF7026B00B610C2 /* Siren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5081246F1CF7026C00B610C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		508124711CF7026C00B610C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB2B4741CF8109900F5CED8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		508124631CF7026B00B610C2 = {
 			isa = PBXGroup;
 			children = (
+				2BB2B4731CF8109900F5CED8 /* AVFoundation.framework */,
 				5081246E1CF7026B00B610C2 /* Siren */,
 				508124831CF7026C00B610C2 /* SirenTests */,
 				5081248E1CF7026C00B610C2 /* SirenUITests */,
@@ -99,6 +105,7 @@
 			children = (
 				5081246F1CF7026C00B610C2 /* AppDelegate.swift */,
 				508124711CF7026C00B610C2 /* ViewController.swift */,
+				2BB2B4771CF8192100F5CED8 /* a.mp3 */,
 				508124761CF7026C00B610C2 /* Assets.xcassets */,
 				508124781CF7026C00B610C2 /* Main.storyboard */,
 				5081247B1CF7026C00B610C2 /* Info.plist */,
@@ -229,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB2B4781CF8192100F5CED8 /* a.mp3 in Resources */,
 				508124771CF7026C00B610C2 /* Assets.xcassets in Resources */,
 				5081247A1CF7026C00B610C2 /* Main.storyboard in Resources */,
 			);
@@ -479,6 +487,7 @@
 				508124961CF7026C00B610C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		508124971CF7026C00B610C2 /* Build configuration list for PBXNativeTarget "SirenTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +496,7 @@
 				508124991CF7026C00B610C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5081249A1CF7026C00B610C2 /* Build configuration list for PBXNativeTarget "SirenUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +505,7 @@
 				5081249C1CF7026C00B610C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
